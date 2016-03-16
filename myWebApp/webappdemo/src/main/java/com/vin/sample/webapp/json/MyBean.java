@@ -1,7 +1,7 @@
 package com.vin.sample.webapp.json;
 
 /**
- * Sample POJO class to be used for JSON demo 
+ * Sample POJO class to be used for JSON demo
  */
 public class MyBean {
 
@@ -23,6 +23,11 @@ public class MyBean {
 
 	public void setName(final String name) {
 		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "MyBean [name=" + this.name + ", address=" + this.address + "]";
 	}
 
 }
