@@ -27,7 +27,7 @@ public class MyBean {
 
 	@Override
 	public String toString() {
-		return "MyBean [name=" + this.name + ", address=" + this.address + "]";
+		return "MyBean [name:" + this.name + ", address:" + this.address + "]";
 	}
 
 }
