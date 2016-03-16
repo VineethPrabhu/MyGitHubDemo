@@ -1,5 +1,8 @@
 package com.vin.sample.webapp.json;
 
+/**
+ * Sample POJO class to be used for JSON demo 
+ */
 public class MyBean {
 
 	private String name;
